@@ -1,0 +1,8 @@
+一、持续集成Jenkins+Git+GitHub
+      1、首先下载安装Jenkins，需要安装在jdk目录里面才能安装成功（有jdk的版本要求）
+      2、Git 是一款分布式版本控制工具，需要下载安装，才能使用Pycharm的git功能
+      3、GitHub需要注册登录使用记住QQ邮箱和密码，后期的Jenkins需要QQ邮箱和密码
+      4、Pychar需要在plugins安装GitHub，构建一个项目（需要登录GitHub账号），
+         后期补上的代码需要先commit再Push上传到GitHub
+      5、Jenkins需要新建一个item项目，配置源码管理，使用git管理源码，需要填写项目的URL，和GitHub的账号密码
+         最后使用Build Now来运行项目
