@@ -48,7 +48,7 @@ class TestRegister(unittest.TestCase):
         expected = eval(item['expected'])
 
         #4、请求头
-        #5、获取请求方法，并且转换为小写
+        #获取请求方法，并且转换为小写
         method=item['method'].lower()
 
         #todo 第二步:请求接口，获取返回实际结果

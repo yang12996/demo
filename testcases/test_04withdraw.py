@@ -29,7 +29,7 @@ class TestWithdraw(unittest.TestCase):
     excel=HandleExcel(os.path.join(DATA_DIR,"aa.xlsx"),"withdraw")
     cases=excel.read_data()
     db=HandleDB()
-    """ 用例类的前置方法，登录提取token"""
+    """ 类的前置方法，登录提取token"""
     @classmethod
     def setUpClass(cls):
         #1、请求登录接口，进行登录

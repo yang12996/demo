@@ -12,9 +12,9 @@ unittest:
       1、手机号码动态生成，替换到用例参数中
 
 """
+import os
 import unittest
 import requests
-import os
 from jsonpath import jsonpath
 from common.Handle_Excel import HandleExcel
 from common.handler_path import DATA_DIR

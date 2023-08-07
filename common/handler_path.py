@@ -23,4 +23,4 @@ REPORT_DIR=os.path.join(BASE_DIR,"reports")
 
 #用例模块所在的目录
 CASES_DIR=os.path.join(BASE_DIR,"testcases")
-print(DATA_DIR)
+# print(DATA_DIR)

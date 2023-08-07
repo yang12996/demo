@@ -52,7 +52,7 @@ class HandleExcel:
 
 
 if __name__ == '__main__':
-    excel =HandleExcel(r"D:\Python\Unitest\demo2\datas\数据.xlsx", "login")
+    excel =HandleExcel(r"D:\Python\Unitest\demo2\datas\aa.xlsx", "login")
     res=excel.read_data()
     print(res)
 
