@@ -42,8 +42,8 @@ class TestLogin(unittest.TestCase):
         #todo 第二步:请求接口，获取返回实际结果
         response = requests.post(url=url, json=params, headers=self.headrs)
         res=response.json()
-        print("预期结果",expected)
-        print("实际结果",res)
+        # print("预期结果",expected)
+        # print("实际结果",res)
         #todo 第三步：断言
         try:
             self.assertEqual(expected["code"],res["code"])
