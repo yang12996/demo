@@ -1,0 +1,18 @@
+一、用例编写
+    1、定义test开头的py文件
+    2、定义Test开头类继承unittest.TestCase的用例类
+    3、定义test开头的测试用例方法
+
+二、套件的使用
+    1、将测试用例加载到测试套件
+    unittest.defaultTestLoader.discover(用例文件所在的路径)
+
+三、测试运行程序
+    1、unittestreport里面的TestRunner
+
+四、测试夹具fixture:
+    1、用例级别     setUp
+    2、测试类级别   setUpClass
+
+五、断言:
+    1、使用继承unittest类的断言方法：assertEqual
