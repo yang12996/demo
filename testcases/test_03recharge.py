@@ -44,6 +44,7 @@ class TestRecharge(unittest.TestCase):
         headers=eval(conf.get("env","headers"))
         response=requests.post(url=url,json=params,headers=headers)
         res=response.json()
+        print(res)
         #2、登录成功之后再去提取token值("$":取根节点，"..":就是不管位置，选择所有符合条件的条件,"[0]":取值)
         token=jsonpath(res,"$..token")[0]
         #将token添加到请求头
@@ -94,7 +95,7 @@ class TestRecharge(unittest.TestCase):
              #todo*******************校验数据库中用户余额的变化是否等于充值的金额**************************
             if res["msg"]=="OK":
                 #充值成功,用户余额的变化为充值金额
-                self.assertEqual(float(end_amount-start_amount),params["amount"])
+                self.assertEqual(int(end_amount-start_amount),int(params["amount"]))
             else:
                 #充值失败,用户余额的变化为0
                 self.assertEqual(float(end_amount-start_amount),0)
