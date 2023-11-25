@@ -156,11 +156,11 @@
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-success">开始时间</button>
-                <span class="text-dark">2023-10-29 13:13:18</span>
+                <span class="text-dark">2023-11-25 08:55:13</span>
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-success">执行时间</button>
-                <span class="text-dark">13.81 S</span>
+                <span class="text-dark">14.26 S</span>
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-success">用例总数</button>
@@ -225,19 +225,19 @@
                     <select id="testClass">
                         <option>所有</option>
                         
-                            <option>TestRegister</option>
-                        
                             <option>TestRecharge</option>
+                        
+                            <option>TestAudit</option>
+                        
+                            <option>TsetAdd</option>
                         
                             <option>TestLogin</option>
                         
                             <option>TestWithdraw</option>
                         
+                            <option>TestRegister</option>
+                        
                             <option>TestInvest</option>
-                        
-                            <option>TestAudit</option>
-                        
-                            <option>TsetAdd</option>
                         
                     </select>
 
@@ -268,7 +268,7 @@
                     <td class="TestRegister">TestRegister</td>
                     <td>test_register_001</td>
                     <td>注册成功-带注册名</td>
-                    <td>0.245s</td>
+                    <td>0.243s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -283,7 +283,7 @@
                         
 
                             <pre>预期结果 {'code': 0, 'msg': 'OK'}
-实际结果 {'code': 0, 'msg': 'OK', 'data': {'id': 163871, 'reg_name': '34254sdfs', 'mobile_phone': '13321820677'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+实际结果 {'code': 0, 'msg': 'OK', 'data': {'id': 168424, 'reg_name': '34254sdfs', 'mobile_phone': '13352487643'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
 数据库中查询的数量为： 1
 test_register_001 (test_01Register.TestRegister)执行——>【通过】
 </pre>
@@ -297,7 +297,7 @@ test_register_001 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestRegister">TestRegister</td>
                     <td>test_register_002</td>
                     <td>已注册过的手机号</td>
-                    <td>0.229s</td>
+                    <td>0.235s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -325,7 +325,7 @@ test_register_002 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestRegister">TestRegister</td>
                     <td>test_register_003</td>
                     <td>不输入手机号</td>
-                    <td>0.18s</td>
+                    <td>0.175s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -353,7 +353,7 @@ test_register_003 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestRegister">TestRegister</td>
                     <td>test_register_004</td>
                     <td>手机号长度10位</td>
-                    <td>0.178s</td>
+                    <td>0.177s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -381,7 +381,7 @@ test_register_004 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestRegister">TestRegister</td>
                     <td>test_register_005</td>
                     <td>手机号长度12位</td>
-                    <td>0.188s</td>
+                    <td>0.172s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -409,7 +409,7 @@ test_register_005 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestRegister">TestRegister</td>
                     <td>test_register_006</td>
                     <td>手机号含有非法字符</td>
-                    <td>0.173s</td>
+                    <td>0.179s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -437,7 +437,7 @@ test_register_006 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestRegister">TestRegister</td>
                     <td>test_register_007</td>
                     <td>已注册过的手机号</td>
-                    <td>0.235s</td>
+                    <td>0.23s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -465,7 +465,7 @@ test_register_007 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestRegister">TestRegister</td>
                     <td>test_register_008</td>
                     <td>密码7位</td>
-                    <td>0.183s</td>
+                    <td>0.169s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -493,7 +493,7 @@ test_register_008 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestRegister">TestRegister</td>
                     <td>test_register_009</td>
                     <td>密码17位</td>
-                    <td>0.179s</td>
+                    <td>0.183s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -521,7 +521,7 @@ test_register_009 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestRegister">TestRegister</td>
                     <td>test_register_010</td>
                     <td>不输入密码</td>
-                    <td>0.179s</td>
+                    <td>0.18s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -549,7 +549,7 @@ test_register_010 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestRegister">TestRegister</td>
                     <td>test_register_011</td>
                     <td>注册名11位</td>
-                    <td>0.225s</td>
+                    <td>0.178s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -577,7 +577,7 @@ test_register_011 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestRegister">TestRegister</td>
                     <td>test_register_012</td>
                     <td>类型输入非0，1内容</td>
-                    <td>0.174s</td>
+                    <td>0.246s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -605,7 +605,7 @@ test_register_012 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestLogin">TestLogin</td>
                     <td>test_login_001</td>
                     <td>登录成功</td>
-                    <td>0.123s</td>
+                    <td>0.122s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -631,7 +631,7 @@ test_register_012 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestLogin">TestLogin</td>
                     <td>test_login_002</td>
                     <td>手机号10位</td>
-                    <td>0.0718s</td>
+                    <td>0.0678s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -657,7 +657,7 @@ test_register_012 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestLogin">TestLogin</td>
                     <td>test_login_003</td>
                     <td>手机号12位</td>
-                    <td>0.0648s</td>
+                    <td>0.0678s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -683,7 +683,7 @@ test_register_012 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestLogin">TestLogin</td>
                     <td>test_login_004</td>
                     <td>密码7位</td>
-                    <td>0.117s</td>
+                    <td>0.13s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -709,7 +709,7 @@ test_register_012 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestLogin">TestLogin</td>
                     <td>test_login_005</td>
                     <td>密码17位</td>
-                    <td>0.11s</td>
+                    <td>0.121s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -735,7 +735,7 @@ test_register_012 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestLogin">TestLogin</td>
                     <td>test_login_006</td>
                     <td>不输入密码</td>
-                    <td>0.0665s</td>
+                    <td>0.071s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -761,7 +761,7 @@ test_register_012 (test_01Register.TestRegister)执行——>【通过】
                     <td class="TestRecharge">TestRecharge</td>
                     <td>test_recharge_001</td>
                     <td>充值成功</td>
-                    <td>0.264s</td>
+                    <td>0.322s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -775,8 +775,8 @@ test_register_012 (test_01Register.TestRegister)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>充值之前411382.60
-充值之后411383.60
+                            <pre>充值之前394560.04
+充值之后394561.04
 test_recharge_001 (test_03recharge.TestRecharge)执行——>【通过】
 </pre>
                         
@@ -789,7 +789,7 @@ test_recharge_001 (test_03recharge.TestRecharge)执行——>【通过】
                     <td class="TestRecharge">TestRecharge</td>
                     <td>test_recharge_002</td>
                     <td>id错误</td>
-                    <td>0.252s</td>
+                    <td>0.283s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -803,8 +803,8 @@ test_recharge_001 (test_03recharge.TestRecharge)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>充值之前411383.60
-充值之后411383.60
+                            <pre>充值之前394561.04
+充值之后394561.04
 test_recharge_002 (test_03recharge.TestRecharge)执行——>【通过】
 </pre>
                         
@@ -817,7 +817,7 @@ test_recharge_002 (test_03recharge.TestRecharge)执行——>【通过】
                     <td class="TestRecharge">TestRecharge</td>
                     <td>test_recharge_003</td>
                     <td>不输入id</td>
-                    <td>0.244s</td>
+                    <td>0.283s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -831,8 +831,8 @@ test_recharge_002 (test_03recharge.TestRecharge)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>充值之前411383.60
-充值之后411383.60
+                            <pre>充值之前394561.04
+充值之后394561.04
 test_recharge_003 (test_03recharge.TestRecharge)执行——>【通过】
 </pre>
                         
@@ -845,175 +845,6 @@ test_recharge_003 (test_03recharge.TestRecharge)执行——>【通过】
                     <td class="TestRecharge">TestRecharge</td>
                     <td>test_recharge_004</td>
                     <td>不输入金额</td>
-                    <td>0.243s</td>
-                    
-                        <td class="text-success">成功</td>
-                    
-                    <td>
-                        <button type="button" class="btn btn-success btn_info">查看详情</button>
-                    </td>
-                </tr>
-
-                <tr class="test_log">
-
-                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
-                        
-
-                            <pre>充值之前411383.60
-充值之后411383.60
-test_recharge_004 (test_03recharge.TestRecharge)执行——>【通过】
-</pre>
-                        
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td>23</td>
-                    <td class="TestRecharge">TestRecharge</td>
-                    <td>test_recharge_005</td>
-                    <td>充值金额为负数</td>
-                    <td>0.245s</td>
-                    
-                        <td class="text-success">成功</td>
-                    
-                    <td>
-                        <button type="button" class="btn btn-success btn_info">查看详情</button>
-                    </td>
-                </tr>
-
-                <tr class="test_log">
-
-                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
-                        
-
-                            <pre>充值之前411383.60
-充值之后411383.60
-test_recharge_005 (test_03recharge.TestRecharge)执行——>【通过】
-</pre>
-                        
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td>24</td>
-                    <td class="TestRecharge">TestRecharge</td>
-                    <td>test_recharge_006</td>
-                    <td>充值金额为500001</td>
-                    <td>0.244s</td>
-                    
-                        <td class="text-success">成功</td>
-                    
-                    <td>
-                        <button type="button" class="btn btn-success btn_info">查看详情</button>
-                    </td>
-                </tr>
-
-                <tr class="test_log">
-
-                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
-                        
-
-                            <pre>充值之前411383.60
-充值之后411383.60
-test_recharge_006 (test_03recharge.TestRecharge)执行——>【通过】
-</pre>
-                        
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td>25</td>
-                    <td class="TestRecharge">TestRecharge</td>
-                    <td>test_recharge_007</td>
-                    <td>充值金额非数字</td>
-                    <td>0.241s</td>
-                    
-                        <td class="text-success">成功</td>
-                    
-                    <td>
-                        <button type="button" class="btn btn-success btn_info">查看详情</button>
-                    </td>
-                </tr>
-
-                <tr class="test_log">
-
-                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
-                        
-
-                            <pre>充值之前411383.60
-充值之后411383.60
-test_recharge_007 (test_03recharge.TestRecharge)执行——>【通过】
-</pre>
-                        
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td>26</td>
-                    <td class="TestRecharge">TestRecharge</td>
-                    <td>test_recharge_008</td>
-                    <td>充值金额小数点3位数</td>
-                    <td>0.266s</td>
-                    
-                        <td class="text-success">成功</td>
-                    
-                    <td>
-                        <button type="button" class="btn btn-success btn_info">查看详情</button>
-                    </td>
-                </tr>
-
-                <tr class="test_log">
-
-                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
-                        
-
-                            <pre>充值之前411383.60
-充值之后411383.60
-test_recharge_008 (test_03recharge.TestRecharge)执行——>【通过】
-</pre>
-                        
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td>27</td>
-                    <td class="TestWithdraw">TestWithdraw</td>
-                    <td>test_withdraw_001</td>
-                    <td>体现成功-整数</td>
-                    <td>0.277s</td>
-                    
-                        <td class="text-success">成功</td>
-                    
-                    <td>
-                        <button type="button" class="btn btn-success btn_info">查看详情</button>
-                    </td>
-                </tr>
-
-                <tr class="test_log">
-
-                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
-                        
-
-                            <pre>体现前的余额411383.60
-体现后的余额410783.60
-变化的余额600.0 600
-test_withdraw_001 (test_04withdraw.TestWithdraw)执行——>【通过】
-</pre>
-                        
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td>28</td>
-                    <td class="TestWithdraw">TestWithdraw</td>
-                    <td>test_withdraw_002</td>
-                    <td>体现成功-1位小数</td>
                     <td>0.274s</td>
                     
                         <td class="text-success">成功</td>
@@ -1028,10 +859,9 @@ test_withdraw_001 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>体现前的余额410783.60
-体现后的余额410182.50
-变化的余额601.1 601.1
-test_withdraw_002 (test_04withdraw.TestWithdraw)执行——>【通过】
+                            <pre>充值之前394561.04
+充值之后394561.04
+test_recharge_004 (test_03recharge.TestRecharge)执行——>【通过】
 </pre>
                         
                         
@@ -1039,11 +869,11 @@ test_withdraw_002 (test_04withdraw.TestWithdraw)执行——>【通过】
                 </tr>
             
                 <tr>
-                    <td>29</td>
-                    <td class="TestWithdraw">TestWithdraw</td>
-                    <td>test_withdraw_003</td>
-                    <td>体现成功-2位小数</td>
-                    <td>0.271s</td>
+                    <td>23</td>
+                    <td class="TestRecharge">TestRecharge</td>
+                    <td>test_recharge_005</td>
+                    <td>充值金额为负数</td>
+                    <td>0.281s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1057,8 +887,178 @@ test_withdraw_002 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>体现前的余额410182.50
-体现后的余额409580.28
+                            <pre>充值之前394561.04
+充值之后394561.04
+test_recharge_005 (test_03recharge.TestRecharge)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>24</td>
+                    <td class="TestRecharge">TestRecharge</td>
+                    <td>test_recharge_006</td>
+                    <td>充值金额为500001</td>
+                    <td>0.273s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>充值之前394561.04
+充值之后394561.04
+test_recharge_006 (test_03recharge.TestRecharge)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>25</td>
+                    <td class="TestRecharge">TestRecharge</td>
+                    <td>test_recharge_007</td>
+                    <td>充值金额非数字</td>
+                    <td>0.285s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>充值之前394561.04
+充值之后394561.04
+test_recharge_007 (test_03recharge.TestRecharge)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>26</td>
+                    <td class="TestRecharge">TestRecharge</td>
+                    <td>test_recharge_008</td>
+                    <td>充值金额小数点3位数</td>
+                    <td>0.278s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>充值之前394561.04
+充值之后394561.04
+test_recharge_008 (test_03recharge.TestRecharge)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>27</td>
+                    <td class="TestWithdraw">TestWithdraw</td>
+                    <td>test_withdraw_001</td>
+                    <td>体现成功-整数</td>
+                    <td>0.293s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>体现前的余额394561.04
+体现后的余额393961.04
+变化的余额600.0 600
+test_withdraw_001 (test_04withdraw.TestWithdraw)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>28</td>
+                    <td class="TestWithdraw">TestWithdraw</td>
+                    <td>test_withdraw_002</td>
+                    <td>体现成功-1位小数</td>
+                    <td>0.286s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>体现前的余额393961.04
+体现后的余额393359.94
+变化的余额601.1 601.1
+test_withdraw_002 (test_04withdraw.TestWithdraw)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>29</td>
+                    <td class="TestWithdraw">TestWithdraw</td>
+                    <td>test_withdraw_003</td>
+                    <td>体现成功-2位小数</td>
+                    <td>0.287s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>体现前的余额393359.94
+体现后的余额392757.72
 变化的余额602.22 602.22
 test_withdraw_003 (test_04withdraw.TestWithdraw)执行——>【通过】
 </pre>
@@ -1072,7 +1072,7 @@ test_withdraw_003 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td class="TestWithdraw">TestWithdraw</td>
                     <td>test_withdraw_004</td>
                     <td>体现成功-50万</td>
-                    <td>0.332s</td>
+                    <td>0.285s</td>
                     
                         <td class="text-warning">失败</td>
                     
@@ -1086,8 +1086,8 @@ test_withdraw_003 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>体现前的余额409580.28
-体现后的余额409580.28
+                            <pre>体现前的余额392757.72
+体现后的余额392757.72
 test_withdraw_004 (test_04withdraw.TestWithdraw)执行——>【失败】
 </pre>
                         
@@ -1138,7 +1138,7 @@ test_withdraw_004 (test_04withdraw.TestWithdraw)执行——>【失败】
                     <td class="TestWithdraw">TestWithdraw</td>
                     <td>test_withdraw_005</td>
                     <td>会员id为空</td>
-                    <td>0.253s</td>
+                    <td>0.279s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1152,8 +1152,8 @@ test_withdraw_004 (test_04withdraw.TestWithdraw)执行——>【失败】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>体现前的余额409580.28
-体现后的余额409580.28
+                            <pre>体现前的余额392757.72
+体现后的余额392757.72
 test_withdraw_005 (test_04withdraw.TestWithdraw)执行——>【通过】
 </pre>
                         
@@ -1166,7 +1166,7 @@ test_withdraw_005 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td class="TestWithdraw">TestWithdraw</td>
                     <td>test_withdraw_006</td>
                     <td>会员id位小数</td>
-                    <td>0.254s</td>
+                    <td>0.29s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1180,8 +1180,8 @@ test_withdraw_005 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>体现前的余额409580.28
-体现后的余额409580.28
+                            <pre>体现前的余额392757.72
+体现后的余额392757.72
 test_withdraw_006 (test_04withdraw.TestWithdraw)执行——>【通过】
 </pre>
                         
@@ -1194,7 +1194,7 @@ test_withdraw_006 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td class="TestWithdraw">TestWithdraw</td>
                     <td>test_withdraw_007</td>
                     <td>体现金额为0</td>
-                    <td>0.273s</td>
+                    <td>0.277s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1208,8 +1208,8 @@ test_withdraw_006 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>体现前的余额409580.28
-体现后的余额409580.28
+                            <pre>体现前的余额392757.72
+体现后的余额392757.72
 变化的余额0.0 0
 test_withdraw_007 (test_04withdraw.TestWithdraw)执行——>【通过】
 </pre>
@@ -1223,7 +1223,7 @@ test_withdraw_007 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td class="TestWithdraw">TestWithdraw</td>
                     <td>test_withdraw_008</td>
                     <td>体现金额为负数</td>
-                    <td>0.258s</td>
+                    <td>0.362s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1237,8 +1237,8 @@ test_withdraw_007 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>体现前的余额409580.28
-体现后的余额409580.28
+                            <pre>体现前的余额392757.72
+体现后的余额392757.72
 test_withdraw_008 (test_04withdraw.TestWithdraw)执行——>【通过】
 </pre>
                         
@@ -1251,7 +1251,7 @@ test_withdraw_008 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td class="TestWithdraw">TestWithdraw</td>
                     <td>test_withdraw_009</td>
                     <td>体现金额为空</td>
-                    <td>0.255s</td>
+                    <td>0.283s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1265,8 +1265,8 @@ test_withdraw_008 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>体现前的余额409580.28
-体现后的余额409580.28
+                            <pre>体现前的余额392757.72
+体现后的余额392757.72
 test_withdraw_009 (test_04withdraw.TestWithdraw)执行——>【通过】
 </pre>
                         
@@ -1279,7 +1279,7 @@ test_withdraw_009 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td class="TestWithdraw">TestWithdraw</td>
                     <td>test_withdraw_010</td>
                     <td>体现金额-3为小数</td>
-                    <td>0.294s</td>
+                    <td>0.277s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1293,8 +1293,8 @@ test_withdraw_009 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>体现前的余额409580.28
-体现后的余额409580.28
+                            <pre>体现前的余额392757.72
+体现后的余额392757.72
 test_withdraw_010 (test_04withdraw.TestWithdraw)执行——>【通过】
 </pre>
                         
@@ -1307,7 +1307,7 @@ test_withdraw_010 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td class="TestWithdraw">TestWithdraw</td>
                     <td>test_withdraw_011</td>
                     <td>体现金额-大于50万</td>
-                    <td>0.313s</td>
+                    <td>0.285s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1321,8 +1321,8 @@ test_withdraw_010 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>体现前的余额409580.28
-体现后的余额409580.28
+                            <pre>体现前的余额392757.72
+体现后的余额392757.72
 test_withdraw_011 (test_04withdraw.TestWithdraw)执行——>【通过】
 </pre>
                         
@@ -1335,7 +1335,7 @@ test_withdraw_011 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td class="TestWithdraw">TestWithdraw</td>
                     <td>test_withdraw_012</td>
                     <td>体现金额-非数字</td>
-                    <td>0.256s</td>
+                    <td>0.28s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1349,8 +1349,8 @@ test_withdraw_011 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>体现前的余额409580.28
-体现后的余额409580.28
+                            <pre>体现前的余额392757.72
+体现后的余额392757.72
 test_withdraw_012 (test_04withdraw.TestWithdraw)执行——>【通过】
 </pre>
                         
@@ -1363,7 +1363,7 @@ test_withdraw_012 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td class="TsetAdd">TsetAdd</td>
                     <td>test_add_001</td>
                     <td>加标成功</td>
-                    <td>0.381s</td>
+                    <td>0.393s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1377,8 +1377,8 @@ test_withdraw_012 (test_04withdraw.TestWithdraw)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>请求之前的数量1002
-请求之前的数量1003
+                            <pre>请求之前的数量1060
+请求之前的数量1061
 test_add_001 (test_05add.TsetAdd)执行——>【通过】
 </pre>
                         
@@ -1391,6 +1391,118 @@ test_add_001 (test_05add.TsetAdd)执行——>【通过】
                     <td class="TsetAdd">TsetAdd</td>
                     <td>test_add_002</td>
                     <td>加标失败-用户id为空</td>
+                    <td>0.306s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>请求之前的数量1061
+请求之前的数量1061
+test_add_002 (test_05add.TsetAdd)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>41</td>
+                    <td class="TsetAdd">TsetAdd</td>
+                    <td>test_add_003</td>
+                    <td>加标失败-标题为空</td>
+                    <td>0.293s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>请求之前的数量1061
+请求之前的数量1061
+test_add_003 (test_05add.TsetAdd)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>42</td>
+                    <td class="TsetAdd">TsetAdd</td>
+                    <td>test_add_004</td>
+                    <td>加标失败-借款金额为空</td>
+                    <td>0.3s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>请求之前的数量1061
+请求之前的数量1061
+test_add_004 (test_05add.TsetAdd)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>43</td>
+                    <td class="TsetAdd">TsetAdd</td>
+                    <td>test_add_005</td>
+                    <td>加标失败-利率为空</td>
+                    <td>0.321s</td>
+                    
+                        <td class="text-success">成功</td>
+                    
+                    <td>
+                        <button type="button" class="btn btn-success btn_info">查看详情</button>
+                    </td>
+                </tr>
+
+                <tr class="test_log">
+
+                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
+                        
+
+                            <pre>请求之前的数量1061
+请求之前的数量1061
+test_add_005 (test_05add.TsetAdd)执行——>【通过】
+</pre>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>44</td>
+                    <td class="TsetAdd">TsetAdd</td>
+                    <td>test_add_006</td>
+                    <td>加标失败-借款期限为空</td>
                     <td>0.313s</td>
                     
                         <td class="text-success">成功</td>
@@ -1405,120 +1517,8 @@ test_add_001 (test_05add.TsetAdd)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>请求之前的数量1003
-请求之前的数量1003
-test_add_002 (test_05add.TsetAdd)执行——>【通过】
-</pre>
-                        
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td>41</td>
-                    <td class="TsetAdd">TsetAdd</td>
-                    <td>test_add_003</td>
-                    <td>加标失败-标题为空</td>
-                    <td>0.318s</td>
-                    
-                        <td class="text-success">成功</td>
-                    
-                    <td>
-                        <button type="button" class="btn btn-success btn_info">查看详情</button>
-                    </td>
-                </tr>
-
-                <tr class="test_log">
-
-                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
-                        
-
-                            <pre>请求之前的数量1003
-请求之前的数量1003
-test_add_003 (test_05add.TsetAdd)执行——>【通过】
-</pre>
-                        
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td>42</td>
-                    <td class="TsetAdd">TsetAdd</td>
-                    <td>test_add_004</td>
-                    <td>加标失败-借款金额为空</td>
-                    <td>0.348s</td>
-                    
-                        <td class="text-success">成功</td>
-                    
-                    <td>
-                        <button type="button" class="btn btn-success btn_info">查看详情</button>
-                    </td>
-                </tr>
-
-                <tr class="test_log">
-
-                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
-                        
-
-                            <pre>请求之前的数量1003
-请求之前的数量1003
-test_add_004 (test_05add.TsetAdd)执行——>【通过】
-</pre>
-                        
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td>43</td>
-                    <td class="TsetAdd">TsetAdd</td>
-                    <td>test_add_005</td>
-                    <td>加标失败-利率为空</td>
-                    <td>0.318s</td>
-                    
-                        <td class="text-success">成功</td>
-                    
-                    <td>
-                        <button type="button" class="btn btn-success btn_info">查看详情</button>
-                    </td>
-                </tr>
-
-                <tr class="test_log">
-
-                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
-                        
-
-                            <pre>请求之前的数量1003
-请求之前的数量1003
-test_add_005 (test_05add.TsetAdd)执行——>【通过】
-</pre>
-                        
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td>44</td>
-                    <td class="TsetAdd">TsetAdd</td>
-                    <td>test_add_006</td>
-                    <td>加标失败-借款期限为空</td>
-                    <td>0.338s</td>
-                    
-                        <td class="text-success">成功</td>
-                    
-                    <td>
-                        <button type="button" class="btn btn-success btn_info">查看详情</button>
-                    </td>
-                </tr>
-
-                <tr class="test_log">
-
-                    <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
-                        
-
-                            <pre>请求之前的数量1003
-请求之前的数量1003
+                            <pre>请求之前的数量1061
+请求之前的数量1061
 test_add_006 (test_05add.TsetAdd)执行——>【通过】
 </pre>
                         
@@ -1531,7 +1531,7 @@ test_add_006 (test_05add.TsetAdd)执行——>【通过】
                     <td class="TsetAdd">TsetAdd</td>
                     <td>test_add_007</td>
                     <td>加标失败-借款日期类型为空</td>
-                    <td>0.35s</td>
+                    <td>0.326s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1545,8 +1545,8 @@ test_add_006 (test_05add.TsetAdd)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>请求之前的数量1003
-请求之前的数量1003
+                            <pre>请求之前的数量1061
+请求之前的数量1061
 test_add_007 (test_05add.TsetAdd)执行——>【通过】
 </pre>
                         
@@ -1559,7 +1559,7 @@ test_add_007 (test_05add.TsetAdd)执行——>【通过】
                     <td class="TsetAdd">TsetAdd</td>
                     <td>test_add_008</td>
                     <td>加标失败-竞标期限为空</td>
-                    <td>0.296s</td>
+                    <td>0.308s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1573,8 +1573,8 @@ test_add_007 (test_05add.TsetAdd)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>请求之前的数量1003
-请求之前的数量1003
+                            <pre>请求之前的数量1061
+请求之前的数量1061
 test_add_008 (test_05add.TsetAdd)执行——>【通过】
 </pre>
                         
@@ -1587,7 +1587,7 @@ test_add_008 (test_05add.TsetAdd)执行——>【通过】
                     <td class="TsetAdd">TsetAdd</td>
                     <td>test_add_009</td>
                     <td>加标失败-借款金额范围错误</td>
-                    <td>0.347s</td>
+                    <td>0.327s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1601,8 +1601,8 @@ test_add_008 (test_05add.TsetAdd)执行——>【通过】
                     <td colspan="7" class="small text-muted" style=" word-wrap:break-word; word-break:break-all">
                         
 
-                            <pre>请求之前的数量1003
-请求之前的数量1003
+                            <pre>请求之前的数量1061
+请求之前的数量1061
 test_add_009 (test_05add.TsetAdd)执行——>【通过】
 </pre>
                         
@@ -1615,7 +1615,7 @@ test_add_009 (test_05add.TsetAdd)执行——>【通过】
                     <td class="TestAudit">TestAudit</td>
                     <td>test_audit_001</td>
                     <td>审核通过</td>
-                    <td>0.139s</td>
+                    <td>0.149s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1641,7 +1641,7 @@ test_add_009 (test_05add.TsetAdd)执行——>【通过】
                     <td class="TestAudit">TestAudit</td>
                     <td>test_audit_002</td>
                     <td>参数approved_or_not</td>
-                    <td>0.162s</td>
+                    <td>0.149s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1667,7 +1667,7 @@ test_add_009 (test_05add.TsetAdd)执行——>【通过】
                     <td class="TestAudit">TestAudit</td>
                     <td>test_audit_003</td>
                     <td>参数id为空</td>
-                    <td>0.132s</td>
+                    <td>0.158s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1693,7 +1693,7 @@ test_add_009 (test_05add.TsetAdd)执行——>【通过】
                     <td class="TestAudit">TestAudit</td>
                     <td>test_audit_004</td>
                     <td>项目id为空</td>
-                    <td>0.143s</td>
+                    <td>0.145s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1719,7 +1719,7 @@ test_add_009 (test_05add.TsetAdd)执行——>【通过】
                     <td class="TestInvest">TestInvest</td>
                     <td>test_invest_001</td>
                     <td>投资人正常投资</td>
-                    <td>0.634s</td>
+                    <td>0.639s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1734,7 +1734,7 @@ test_add_009 (test_05add.TsetAdd)执行——>【通过】
                         
 
                             <pre>预期结果{'code': 0, 'msg': 'OK'}
-实际结果{'code': 0, 'msg': 'OK', 'data': {'id': 45368, 'member_id': 124266, 'loan_id': 80558, 'amount': 300.0, 'create_time': '2023-10-29 13:13:32', 'is_valid': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+实际结果{'code': 0, 'msg': 'OK', 'data': {'id': 47015, 'member_id': 124266, 'loan_id': 85047, 'amount': 300.0, 'create_time': '2023-11-25 08:55:27', 'is_valid': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
 test_invest_001 (test_07invest.TestInvest)执行——>【通过】
 </pre>
                         
@@ -1747,7 +1747,7 @@ test_invest_001 (test_07invest.TestInvest)执行——>【通过】
                     <td class="TestInvest">TestInvest</td>
                     <td>test_invest_002</td>
                     <td>投资人id为空</td>
-                    <td>0.0638s</td>
+                    <td>0.0728s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1775,7 +1775,7 @@ test_invest_002 (test_07invest.TestInvest)执行——>【通过】
                     <td class="TestInvest">TestInvest</td>
                     <td>test_invest_003</td>
                     <td>标id为空</td>
-                    <td>0.0715s</td>
+                    <td>0.0732s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1803,7 +1803,7 @@ test_invest_003 (test_07invest.TestInvest)执行——>【通过】
                     <td class="TestInvest">TestInvest</td>
                     <td>test_invest_004</td>
                     <td>投资金额为空</td>
-                    <td>0.0707s</td>
+                    <td>0.0692s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1831,7 +1831,7 @@ test_invest_004 (test_07invest.TestInvest)执行——>【通过】
                     <td class="TestInvest">TestInvest</td>
                     <td>test_invest_005</td>
                     <td>投资金额为非100的整数</td>
-                    <td>0.0661s</td>
+                    <td>0.078s</td>
                     
                         <td class="text-success">成功</td>
                     
@@ -1859,7 +1859,7 @@ test_invest_005 (test_07invest.TestInvest)执行——>【通过】
                     <td class="TestInvest">TestInvest</td>
                     <td>test_invest_006</td>
                     <td>投资金额大于可投余额</td>
-                    <td>0.0795s</td>
+                    <td>0.0947s</td>
                     
                         <td class="text-success">成功</td>
                     

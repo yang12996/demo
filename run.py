@@ -13,12 +13,12 @@ def main():
     runner.run()
 
     #-----------------测试报告QQ邮箱发送-----------------
-    # runner.send_email(  host='smtp.qq.com',
-    #                     port=465,
-    #                     user='yang2023.7.28@qq.com',
-    #                     password='zthwwjnrctjugddd',
-    #                     to_addrs='1437358161@qq.com',
-    #                     is_file=True)
+    runner.send_email(  host='smtp.qq.com',
+                        port=465,
+                        user='yang2023.7.28@qq.com',
+                        password='zthwwjnrctjugddd',
+                        to_addrs='1437358161@qq.com',
+                        is_file=True)
 
     #-------------扩展自定义邮件的标题和内容-------------------
     # from unittestreport.core.sendEmail import SendEmail
